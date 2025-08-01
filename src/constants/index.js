@@ -43,9 +43,16 @@ export const navLinks = [
     title: "skills",
   },
   {
+    id: "resume",
+    title: "Resume",
+    external: true, // 👈 Add this flag to handle differently in JSX
+    link: "https://drive.google.com/drive/u/0/folders/17bJQIK4gNorQsGFLOF2HdG7WSWHtJOPJ",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
+  
 ];
 
 const services = [
