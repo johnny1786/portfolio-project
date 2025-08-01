@@ -220,6 +220,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+    category: 'Full stack',
+    year: '2025',
     image: nextTutorial,
     source_code_link: "https://github.com/johnny1786/nextjs-dashboard",
   },
