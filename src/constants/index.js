@@ -46,7 +46,7 @@ export const navLinks = [
     id: "resume",
     title: "Resume",
     external: true, // 👈 Add this flag to handle differently in JSX
-    link: "https://drive.google.com/drive/u/0/folders/17bJQIK4gNorQsGFLOF2HdG7WSWHtJOPJ",
+    link: "https://drive.google.com/drive/folders/1C1mKF3F6i84Fp0YhweUqbhkIBbG__FFJ",
   },
   {
     id: "contact",
