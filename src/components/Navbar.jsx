@@ -43,9 +43,8 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Johnson &nbsp;
-            
+          <p className='text-white text-[16px] sm:text-[18px] font-bold cursor-pointer flex items-center gap-1'>
+            Madas Johnson <span className='sm:block hidden text-secondary font-normal text-sm'>| Software Engineer</span>
           </p>
         </Link>
 
