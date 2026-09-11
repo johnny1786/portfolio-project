@@ -1,17 +1,11 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto flex flex-col justify-between overflow-hidden">
-      {/* 3D Canvas occupying full hero background, with model positioned on the right */}
-      <div className="absolute inset-0 z-0">
-        <ComputersCanvas />
-      </div>
-
-      {/* Hero Content Container on Left */}
+      {/* Hero Content Container */}
       <div
         className={`relative z-10 top-[110px] sm:top-[125px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 sm:gap-6 pointer-events-none`}
       >
@@ -111,6 +105,5 @@ const Hero = () => {
 };
 
 export default Hero;
-
 
 
